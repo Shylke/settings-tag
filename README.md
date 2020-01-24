@@ -33,3 +33,4 @@
 `{settings;plugins.music.options.small_msgs}` = tells you if the "Small Player Messages" option is toggled on (`true`).
 `{settings;plugins.music.options.show_results}` = tells you if the "Show Results" option is toggled on (`true`).
 `{settings;plugins.music.state}` = tells you if the music plugin is enabled or not.
+tg
