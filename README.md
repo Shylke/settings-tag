@@ -35,9 +35,13 @@
 ## __Roles:__
 `{settings;plugins.roles.options}` = gets you all the role plugin's options with all the roles in a raw format.
 
-`{settings;plugins.roles.options.iam}` = gets all the iam roles' ids. I think. idk.
+`{settings;plugins.roles.options.iam}` = gets all the iam roles' ids.
 
 `{settings;plugins.roles.options.iam.0}` = gets the first iam role's id.
+
+`{settings;plugins.roles.options.join}` = gets all the join roles' ids.
+
+`{settings;plugins.roles.options.join.0}` = gets the first join role's id.
 
 `{settings;plugins.roles.state}` = tells you if the roles plugin is enabled or not.
 
