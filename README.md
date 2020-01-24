@@ -28,6 +28,8 @@
 
 `{settings;plugins.levels.options.rewards.0.content}` = gets the first role reward's id.
 
+`{settings;plugins.moderation.restrictions}` = gets the levels plugin's restrcitions (black/whitelists, required perms).
+
 `{settings;plugins.levels.restrictions.mode}` = tells you whetever you're using a blacklist or a whitelist.
 
 `{settings;plugins.levels.state}` = tells you if the level plugin is enabled or not.
@@ -37,6 +39,8 @@
 `{settings;plugins.fun.options.starboard}` = gets starboard channel's id.
 
 `{settings;plugins.fun.options}` = gets all the fun plugin's options. Just starboard to be honest.
+
+`{settings;plugins.fun.restrictions}` = gets the fun plugin's restrcitions (black/whitelists, required perms).
 
 `{settings;plugins.fun.restrictions.mode}` = tells you whetever you're using a blacklist or a whitelist.
 
@@ -53,6 +57,8 @@
 
 `{settings;plugins.roles.options.join.0}` = gets the first join role's id.
 
+`{settings;plugins.roles.restrictions}` = gets the roles plugin's restrcitions (black/whitelists, required perms).
+
 `{settings;plugins.roles.restrictions.mode}` = tells you whetever you're using a blacklist or a whitelist.
 
 `{settings;plugins.roles.state}` = tells you if the roles plugin is enabled or not.
@@ -67,6 +73,8 @@
 `{settings;plugins.music.options.small_msgs}` = tells you if the "Small Player Messages" option is toggled on (`true`).
 
 `{settings;plugins.music.options.show_results}` = tells you if the "Show Results" option is toggled on (`true`).
+
+`{settings;plugins.moderation.restrictions}` = gets the music plugin's restrcitions (black/whitelists, required perms).
 
 `{settings;plugins.music.restrictions.mode}` = tells you whetever you're using a blacklist or a whitelist.
 
