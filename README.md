@@ -43,9 +43,12 @@
 `{settings;plugins.music.options}` = gets you all the music plugin's options.
 
 `{settings;plugins.music.options.player_buttons}` = tells you if the "Player Buttons" option is toggled on (`true`).
+
 `{settings;plugins.music.options.hide_nowplaying}` = tells you if the "Hide "Now Playing" Messages" option is toggled on (`true`).
+
 `{settings;plugins.music.options.small_msgs}` = tells you if the "Small Player Messages" option is toggled on (`true`).
 
 `{settings;plugins.music.options.show_results}` = tells you if the "Show Results" option is toggled on (`true`).
+
 `{settings;plugins.music.state}` = tells you if the music plugin is enabled or not.
 
