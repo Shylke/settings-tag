@@ -6,6 +6,7 @@
 
 ## __Moderation:__
 `{settings;plugins.moderation.logs.action}` = gets the action log's channel id.
+
 `{settings;plugins.moderation.logs.mod}` = gets the mod log's channel id.
 `{settings;plugins.moderation.state}` = tells you if the moderation plugin is enabled or not.
 
@@ -33,4 +34,4 @@
 `{settings;plugins.music.options.small_msgs}` = tells you if the "Small Player Messages" option is toggled on (`true`).
 `{settings;plugins.music.options.show_results}` = tells you if the "Show Results" option is toggled on (`true`).
 `{settings;plugins.music.state}` = tells you if the music plugin is enabled or not.
-tg
+
