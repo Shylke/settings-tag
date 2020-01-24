@@ -37,6 +37,8 @@
 
 `{settings;plugins.roles.options.iam}` = gets all the iam roles' ids. I think. idk.
 
+`{settings;plugins.roles.options.iam.0}` = gets the first iam role's id.
+
 `{settings;plugins.roles.state}` = tells you if the roles plugin is enabled or not.
 
 ## __Music:__
