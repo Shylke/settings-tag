@@ -28,7 +28,7 @@
 
 `{settings;plugins.levels.options.rewards.0.content}` = gets the first role reward's id.
 
-`{settings;plugins.moderation.restrictions}` = gets the levels plugin's restrcitions (black/whitelists, required perms).
+`{settings;plugins.levels.restrictions}` = gets the levels plugin's restrcitions (black/whitelists, required perms).
 
 `{settings;plugins.levels.restrictions.mode}` = tells you whetever you're using a blacklist or a whitelist.
 
