@@ -11,17 +11,21 @@
 
 `{settings;plugins.fun.options.starboard}` = gets starboard channel's id.
 
-`{settings;plugins.fun.restrictions}` = gets the fun plugin's restrcitions (black/whitelists, required perms).
+`{settings;plugins.fun.restrictions}` = gets the fun plugin's restrictions (black/whitelists, required perms).
 
 `{settings;plugins.fun.restrictions.mode}` = tells you whetever you're using a blacklist or a whitelist.
+
+`{settings;plugins.fun.restrictions.roles}` = gets you the black/whitelisted roles.
+
+`{settings;plugins.fun.restrictions.channels}` = gets you the black/whitelisted channels.
+
+`{settings;plugins.fun.restrictions.permissions}` = gets you the fun plugin's required perms.
 
 `{settings;plugins.fun.state}` = tells you if the fun plugin is enabled or not.
 
 
 ## __Gatekeeper:__ 
 `{settings;plugins.gatekeeper}` = gets the general config in a raw format.
-
-`{settings;plugins.gatekeeper.restrictions}` = gets the gatekeeper plugin's restrcitions (black/whitelists, required perms). Wait, what?
 
 `{settings;plugins.gatekeeper.dm}` = gets you a raw format of the join message (DM option).
 
@@ -45,22 +49,33 @@
 ## __Info:__
 `{settings;plugins.info.state}` = tells you if the info plugin is enabled or not.
 
-`{settings;plugins.info.restrictions}` = gets the info plugin's restrcitions (black/whitelists, required perms).
+`{settings;plugins.info.restrictions}` = gets the info plugin's restrictions (black/whitelists, required perms).
 
 `{settings;plugins.info.restrictions.mode}` = tells you whetever you're using a blacklist or a whitelist.
 
+`{settings;plugins.info.restrictions.roles}` = gets you the black/whitelisted roles.
+
+`{settings;plugins.info.restrictions.channels}` = gets you the black/whitelisted channels.
+
+`{settings;plugins.info.restrictions.permissions}` = gets you the info plugin's required perms.
+
 
 ## __Moderation:__
+`{settings;plugins.moderation}` = gets the general config in a raw format.
+
+`{settings;plugins.moderation.restrictions}` = gets the moderation plugin's restrictions (black/whitelists, required perms).
+
+`{settings;plugins.moderation.restrictions.mode}` = tells you whetever you're using a blacklist or a whitelist.
+
+`{settings;plugins.moderation.restrictions.roles}` = gets you the black/whitelisted roles.
+
+`{settings;plugins.moderation.restrictions.channels}` = gets you the black/whitelisted channels.
+
+`{settings;plugins.moderation.restrictions.permissions}` = gets you the moderation plugin's required perms.
 
 `{settings;plugins.moderation.logs.action}` = gets the action log's channel id.
 
 `{settings;plugins.moderation.logs.mod}` = gets the mod log's channel id.
-
-`{settings;plugins.moderation}` = gets the general config in a raw format.
-
-`{settings;plugins.moderation.restrictions}` = gets the moderation plugin's restrcitions (black/whitelists, required perms).
-
-`{settings;plugins.moderation.restrictions.mode}` = tells you whetever you're using a blacklist or a whitelist.
 
 `{settings;plugins.moderation.state}` = tells you if the moderation plugin is enabled or not.
 
@@ -74,9 +89,15 @@
 
 `{settings;plugins.levels.options.rewards.0.content}` = gets the first role reward's id.
 
-`{settings;plugins.levels.restrictions}` = gets the levels plugin's restrcitions (black/whitelists, required perms).
+`{settings;plugins.levels.restrictions}` = gets the levels plugin's restrictions (black/whitelists, required perms).
 
 `{settings;plugins.levels.restrictions.mode}` = tells you whetever you're using a blacklist or a whitelist.
+
+`{settings;plugins.levels.restrictions.roles}` = gets you the black/whitelisted roles.
+
+`{settings;plugins.levels.restrictions.channels}` = gets you the black/whitelisted channels.
+
+`{settings;plugins.levels.restrictions.permissions}` = gets you the levels plugin's required perms.
 
 `{settings;plugins.levels.state}` = tells you if the level plugin is enabled or not.
 
@@ -92,9 +113,15 @@
 
 `{settings;plugins.music.options.show_results}` = tells you if the "Show Results" option is toggled on (`true`).
 
-`{settings;plugins.moderation.restrictions}` = gets the music plugin's restrcitions (black/whitelists, required perms).
+`{settings;plugins.moderation.restrictions}` = gets the music plugin's restrictions (black/whitelists, required perms).
 
 `{settings;plugins.music.restrictions.mode}` = tells you whetever you're using a blacklist or a whitelist.
+
+`{settings;plugins.music.restrictions.roles}` = gets you the black/whitelisted roles.
+
+`{settings;plugins.music.restrictions.channels}` = gets you the black/whitelisted channels.
+
+`{settings;plugins.music.restrictions.permissions}` = gets you the music plugin's required perms.
 
 `{settings;plugins.music.state}` = tells you if the music plugin is enabled or not.
 
@@ -112,9 +139,15 @@
 
 `{settings;plugins.roles.options.reaction_dm}` = tells you if the `Direct-message members when they toggle a role` option is toggled on (`true`).
 
-`{settings;plugins.roles.restrictions}` = gets the roles plugin's restrcitions (black/whitelists, required perms).
+`{settings;plugins.roles.restrictions}` = gets the roles plugin's restrictions (black/whitelists, required perms).
 
 `{settings;plugins.roles.restrictions.mode}` = tells you whetever you're using a blacklist or a whitelist.
+
+`{settings;plugins.roles.restrictions.roles}` = gets you the black/whitelisted roles.
+
+`{settings;plugins.roles.restrictions.channels}` = gets you the black/whitelisted channels.
+
+`{settings;plugins.roles.restrictions.permissions}` = gets you the roles plugin's required perms.
 
 `{settings;plugins.roles.state}` = tells you if the roles plugin is enabled or not.
 
@@ -128,7 +161,14 @@
 
 `{settings;plugins.tickets.restrictions.mode}` = tells you whetever you're using a blacklist or a whitelist.
 
+`{settings;plugins.tickets.restrictions.roles}` = gets you the black/whitelisted roles.
+
+`{settings;plugins.tickeets.restrictions.channels}` = gets you the black/whitelisted channels.
+
+`{settings;plugins.tickets.restrictions.permissions}` = gets you the tickets plugin's required perms.
+
 `{settings;plugins.tickets.state}` = tells you if the tickets plugin is enabled or not.
+
 
 ## __Utilities:__
 `{settings;plugins.utilities.state}` = tells you if the utilities plugin is enabled or not.
@@ -136,4 +176,10 @@
 `{settings;plugins.utlities.restrictions}` = gets the utilities plugin's restrcitions (black/whitelists, required perms).
 
 `{settings;plugins.utilities.restrictions.mode}` = tells you whetever you're using a blacklist or a whitelist.
+
+`{settings;plugins.utilities.restrictions.roles}` = gets you the black/whitelisted roles.
+
+`{settings;plugins.utilities.restrictions.channels}` = gets you the black/whitelisted channels.
+
+`{settings;plugins.utilities.restrictions.permissions}` = gets you the utilities plugin's required perms.
 
