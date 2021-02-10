@@ -7,10 +7,9 @@
 
 
 ## __Fun:__
+`{settings;plugins.fun.options}` = gets all the fun plugin's options. Just starboard to be honest.
 
 `{settings;plugins.fun.options.starboard}` = gets starboard channel's id.
-
-`{settings;plugins.fun.options}` = gets all the fun plugin's options. Just starboard to be honest.
 
 `{settings;plugins.fun.restrictions}` = gets the fun plugin's restrcitions (black/whitelists, required perms).
 
@@ -18,7 +17,28 @@
 
 `{settings;plugins.fun.state}` = tells you if the fun plugin is enabled or not.
 
+
 ## __Gatekeeper:__ 
+`{settings;plugins.gatekeeper}` = gets the general config in a raw format.
+
+`{settings;plugins.gatekeeper.restrictions}` = gets the gatekeeper plugin's restrcitions (black/whitelists, required perms). Wait, what?
+
+`{settings;plugins.gatekeeper.dm}` = gets you a raw format of the join message (DM option).
+
+`{settings;plugins.gatekeeper.channel}` = gets you a raw format of the join message.
+
+`{settings;plugins.gatekeeper.leave}` = gets you a raw format of the leave message.
+
+`{settings;plugins.gatekeeper.dm.content}` = gets you the content of the join message (DM option).
+
+`{settings;plugins.gatekeeper.channel.content}` = gets you the content of the join message.
+
+`{settings;plugins.gatekeeper.leave.content}` = gets you the content of the leave message.
+
+`{settings;plugins.gatekeeper.channel.channel}` = gets you the join messages' channel's id.
+
+`{settings;plugins.gatekeeper.leave.channel}` = gets you the leave messages' channel's id.
+
 `{settings;plugins.gatekeeper.state}` = tells you if the gatekeeper plugin is enabled or not.
 
 
@@ -89,6 +109,8 @@
 `{settings;plugins.roles.options.join}` = gets all the join roles' ids.
 
 `{settings;plugins.roles.options.join.0}` = gets the first join role's id. Replace `0` with a higher number to get other roles (1 = 2nd join role, 2 = 3rd join role, etc...).
+
+`{settings;plugins.roles.options.reaction_dm}` = tells you if the `Direct-message members when they toggle a role` option is toggled on (`true`).
 
 `{settings;plugins.roles.restrictions}` = gets the roles plugin's restrcitions (black/whitelists, required perms).
 
