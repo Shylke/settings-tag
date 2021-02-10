@@ -7,6 +7,8 @@
 
 
 ## __Fun:__
+`{settings;plugins.fun}` = gets the general config in a raw format.
+
 `{settings;plugins.fun.options}` = gets all the fun plugin's options. Just starboard to be honest.
 
 `{settings;plugins.fun.options.starboard}` = gets starboard channel's id.
@@ -47,6 +49,8 @@
 
 
 ## __Info:__
+`{settings;plugins.info}` = gets the general config in a raw format.
+
 `{settings;plugins.info.state}` = tells you if the info plugin is enabled or not.
 
 `{settings;plugins.info.restrictions}` = gets the info plugin's restrictions (black/whitelists, required perms).
@@ -81,6 +85,8 @@
 
 
 ## __Levels:__
+`{settings;plugins.levels}` = gets the general config in a raw format.
+
 `{settings;plugins.levels.options}` = gets all the levels and role rewards, plus the level up message and other info in a raw format.
 
 `{settings;plugins.levels.options.rewards}` = gets all the levels and role rewards in a raw format.
@@ -103,6 +109,8 @@
 
 
 ## __Music:__
+`{settings;plugins.music}` = gets the general config in a raw format.
+
 `{settings;plugins.music.options}` = gets you all the music plugin's options.
 
 `{settings;plugins.music.options.player_buttons}` = tells you if the "Player Buttons" option is toggled on (`true`).
@@ -127,6 +135,8 @@
 
 
 ## __Roles:__
+`{settings;plugins.roles}` = gets the general config in a raw format.
+
 `{settings;plugins.roles.options}` = gets you all the role plugin's options with all the roles in a raw format.
 
 `{settings;plugins.roles.options.iam}` = gets all the iam roles' ids.
@@ -151,9 +161,20 @@
 
 `{settings;plugins.roles.state}` = tells you if the roles plugin is enabled or not.
 
+## __Suggestions:__
+`{settings;plugins.suggestions}` = gets the general config in a raw format.
+
+`{settings;plugins.suggestions.state}` = tells you if the suggestions plugin is enabled or not.
+
 
 ## __Tickets:__
+`{settings;plugins.tickets}` = gets the general config in a raw format.
+
 `{settings;plugins.tickets.options}` = gets you all the tickets plugin's options with all the roles in a raw format.
+
+`{settings;plugins.tickets.options.message}` = gets the ticket's opening message.
+
+`{settings;plugins.tickets.options.category}` = gets you the tickets' category's id.
 
 `{settings;plugins.tickets.options.support}` = gets you the tickets plugin's support role's id.
 
@@ -171,6 +192,8 @@
 
 
 ## __Utilities:__
+`{settings;plugins.utilities}` = gets the general config in a raw format.
+
 `{settings;plugins.utilities.state}` = tells you if the utilities plugin is enabled or not.
 
 `{settings;plugins.utlities.restrictions}` = gets the utilities plugin's restrcitions (black/whitelists, required perms).
