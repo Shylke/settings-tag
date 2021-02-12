@@ -85,24 +85,35 @@
 
 ### __Filters:__
 `{settings;plugins.moderation.filters.phrases}` = general raw config of the phrases filter.
+
 `{settings;plugins.moderation.filters.spoilers}` = general raw config of the spoilers filter.
 
 
 #### __Capitalization:__
 `{settings;plugins.moderation.filters.capitalization}` = general raw config of the capitalization filter.
+
 `{settings;plugins.moderation.filters.capitalization.action}` = tells you what Atlas does when the filter gets triggered. Output is a number. (`0` or `No output :c` = `Disabled`, `1` = `Delete the Message`, `2` = `Delete the Message & Warn the User`, `3` = `Warn the User`)
+
 `{settings;plugins.moderation.filters.capitalization.exempt}` = gives you a list of exempt roles/channels.
+
 `{settings;plugins.moderation.filters.capitalization.exempt.channels}` = gives you a list of exempt channels.
+
 `{settings;plugins.moderation.filters.capitalization.exempt.roles}` = gives you a list of exempt roles.
+
 `{settings;plugins.moderation.filters.capitalization.sanction}` = tells you whetever bots/mods/ticket channels are sanctioned.
+
 `{settings;plugins.moderation.filters.capitalization.sanction.bots}` = tells you if the `Sanction Bots` option is toggled on (`true`).
+
 `{settings;plugins.moderation.filters.capitalization.sanction.moderators}` = tells you if the `Sanction moderators` option is toggled on (`true`).
+
 `{settings;plugins.moderation.filters.capitalization.sanction.tickets}` = tells you if the `Sanction Ticket Channels` option is toggled on (`true`).
+
 `{settings;plugins.moderation.filters.capitalization.threshold}` = gives you the threshold needed to trigger the filter.
 
 
 #### __Cursing:__
 `{settings;plugins.moderation.filters.cursing}` = general raw config of the cursing filter.
+
 `{settings;plugins.moderation.filters.cursing.action}` = tells you what Atlas does when the filter gets triggered. Output is a number. (`0` or `No output :c` = `Disabled`, `1` = `Delete the Message`, `2` = `Delete the Message & Warn the User`, `3` = `Warn the User`)
 
 ## __Levels:__
