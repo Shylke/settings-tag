@@ -92,8 +92,8 @@
 
 `{settings;plugins.moderation.filters.spoilers}` = general raw config of the spoilers filter.
 
-
-### __Capitalization:__
+<details>
+<summary>**Capitalization:**</summary>
 `{settings;plugins.moderation.filters.capitalization}` = general raw config of the capitalization filter.
 
 `{settings;plugins.moderation.filters.capitalization.action}` = tells you what Atlas does when the filter gets triggered. Output is a number. (`0` or `No output :c` = `Disabled`, `1` = `Delete the Message`, `2` = `Delete the Message & Warn the User`, `3` = `Warn the User`)
@@ -113,9 +113,10 @@
 `{settings;plugins.moderation.filters.capitalization.sanction.tickets}` = tells you if the `Sanction Ticket Channels` option is toggled on (`true`).
 
 `{settings;plugins.moderation.filters.capitalization.threshold}` = gives you the threshold needed to trigger the filter.
+</details>
 
-
-### __Cursing:__
+<details>
+<summary>**Cursing:**</summary>
 `{settings;plugins.moderation.filters.cursing}` = general raw config of the cursing filter.
 
 `{settings;plugins.moderation.filters.cursing.action}` = tells you what Atlas does when the filter gets triggered. Output is a number. (`0` or `No output :c` = `Disabled`, `1` = `Delete the Message`, `2` = `Delete the Message & Warn the User`, `3` = `Warn the User`)
@@ -137,9 +138,10 @@
 `{settings;plugins.moderation.filters.cursing.sexual}` = tells you if the `Sexual` (words) option is toggled on (`true`).
 
 `{settings;plugins.moderation.filters.cursing.discriminatory}` = tells you if the `Discriminatory` (words) option is toggled on (`true`).
+</details>
 
 <details>
- <summary> ### __Emoji:__ </summary>
+ <summary> **Emoji:** </summary>
 `{settings;plugins.moderation.filters.emoji}` = general raw config of the emoji filter.
 
 `{settings;plugins.moderation.filters.emoji.action}` = tells you what Atlas does when the filter gets triggered. Output is a number. (`0` or `No output :c` = `Disabled`, `1` = `Delete the Message`, `2` = `Delete the Message & Warn the User`, `3` = `Warn the User`)
@@ -161,7 +163,28 @@
 `{settings;plugins.moderation.filters.emoji.threshold}` = gives you the threshold needed to trigger the filter.
 </details>
 
-## __Invites:__
+
+<details>
+<summary>**Invites:**</summary>
+
+`{settings;plugins.moderation.filters.invites}` = general raw config of the emoji filter.
+
+`{settings;plugins.moderation.filters.invites.action}` = tells you what Atlas does when the filter gets triggered. Output is a number. (`0` or `No output :c` = `Disabled`, `1` = `Delete the Message`, `2` = `Delete the Message & Warn the User`, `3` = `Warn the User`)
+
+`{settings;plugins.moderation.filters.invites.exempt}` = gives you a list of exempt roles/channels.
+
+`{settings;plugins.moderation.filters.invites.exempt.channels}` = gives you a list of exempt channels.
+
+`{settings;plugins.moderation.filters.invites.exempt.roles}` = gives you a list of exempt roles.
+
+`{settings;plugins.moderation.filters.invites.sanction}` = tells you whetever bots/mods/ticket channels are sanctioned.
+
+`{settings;plugins.moderation.filters.invites.sanction.bots}` = tells you if the `Sanction Bots` option is toggled on (`true`).
+
+`{settings;plugins.moderation.filters.invites.sanction.moderators}` = tells you if the `Sanction moderators` option is toggled on (`true`).
+
+`{settings;plugins.moderation.filters.invites.sanction.tickets}` = tells you if the `Sanction Ticket Channels` option is toggled on (`true`).
+</details>
 
 
 ## __Levels:__
