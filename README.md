@@ -4,6 +4,8 @@
  ## __General:__
 
 `{settings;prefix}` = gets the server's prefix.
+`{settings;persistent}` = get all the server's persistent variables.
+`{settings;persistent.length}` = gets the number of persistent variables you're using.
 
 
 ## __Fun:__
