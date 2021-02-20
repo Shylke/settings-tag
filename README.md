@@ -4,7 +4,9 @@
  ## __General:__
 
 `{settings;prefix}` = gets the server's prefix.
+
 `{settings;persistent}` = get all the server's persistent variables.
+
 `{settings;persistent.length}` = gets the number of persistent variables you're using.
 
 
@@ -136,8 +138,8 @@
 
 `{settings;plugins.moderation.filters.cursing.discriminatory}` = tells you if the `Discriminatory` (words) option is toggled on (`true`).
 
-
-### __Emoji:__
+<details>
+ <summary> ### __Emoji:__ </summary>
 `{settings;plugins.moderation.filters.emoji}` = general raw config of the emoji filter.
 
 `{settings;plugins.moderation.filters.emoji.action}` = tells you what Atlas does when the filter gets triggered. Output is a number. (`0` or `No output :c` = `Disabled`, `1` = `Delete the Message`, `2` = `Delete the Message & Warn the User`, `3` = `Warn the User`)
@@ -157,6 +159,7 @@
 `{settings;plugins.moderation.filters.emoji.sanction.tickets}` = tells you if the `Sanction Ticket Channels` option is toggled on (`true`).
 
 `{settings;plugins.moderation.filters.emoji.threshold}` = gives you the threshold needed to trigger the filter.
+</details>
 
 ## __Invites:__
 
