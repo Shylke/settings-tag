@@ -88,8 +88,6 @@
 `{settings;plugins.moderation.state}` = tells you if the moderation plugin is enabled or not.
 
 ### __Filters:__
-`{settings;plugins.moderation.filters.phrases}` = general raw config of the phrases filter.
-
 `{settings;plugins.moderation.filters.spoilers}` = general raw config of the spoilers filter.
 
 <details>
@@ -261,6 +259,57 @@
 
 `{settings;plugins.moderation.filters.phrases.list}` = returns the list of blacklistes phrases.
 </details>
+
+<details>
+<summary>Spam:</summary>
+
+`{settings;plugins.moderation.filters.spam}` = general raw config of the spam filter.
+
+`{settings;plugins.moderation.filters.spam.action}` = tells you what Atlas does when the filter gets triggered. Output is a number. (`0` or `No output :c` = `Disabled`, `1` = `Delete the Message`, `2` = `Delete the Message & Warn the User`, `3` = `Warn the User`)
+
+`{settings;plugins.moderation.filters.spam.exempt}` = gives you a list of exempt roles/channels.
+
+`{settings;plugins.moderation.filters.spam.exempt.channels}` = gives you a list of exempt channels.
+
+`{settings;plugins.moderation.filters.spam.exempt.roles}` = gives you a list of exempt roles.
+
+`{settings;plugins.moderation.filters.spam.sanction}` = tells you whetever bots/mods/ticket channels are sanctioned.
+
+`{settings;plugins.moderation.filters.spam.sanction.bots}` = tells you if the `Sanction Bots` option is toggled on (`true`).
+
+`{settings;plugins.moderation.filters.spam.sanction.moderators}` = tells you if the `Sanction moderators` option is toggled on (`true`).
+
+`{settings;plugins.moderation.filters.spam.sanction.tickets}` = tells you if the `Sanction Ticket Channels` option is toggled on (`true`).
+
+`{settings;plugins.moderation.filters.spam.threshold}` = gives you the threshold number needed to trigger the filter.
+
+`{settings;plugins.moderation.filters.spam.time}` = gives you the timespan (in milliseconds) needed to trigger the filter.
+</details>
+
+<details>
+<summary>Spoilers:</summary>
+
+`{settings;plugins.moderation.filters.spoilers}` = general raw config of the spoilers filter.
+
+`{settings;plugins.moderation.filters.spoilers.action}` = tells you what Atlas does when the filter gets triggered. Output is a number. (`0` or `No output :c` = `Disabled`, `1` = `Delete the Message`, `2` = `Delete the Message & Warn the User`, `3` = `Warn the User`)
+
+`{settings;plugins.moderation.filters.spoilers.exempt}` = gives you a list of exempt roles/channels.
+
+`{settings;plugins.moderation.filters.spoilers.exempt.channels}` = gives you a list of exempt channels.
+
+`{settings;plugins.moderation.filters.spoilers.exempt.roles}` = gives you a list of exempt roles.
+
+`{settings;plugins.moderation.filters.spoilers.sanction}` = tells you whetever bots/mods/ticket channels are sanctioned.
+
+`{settings;plugins.moderation.filters.spoilers.sanction.bots}` = tells you if the `Sanction Bots` option is toggled on (`true`).
+
+`{settings;plugins.moderation.filters.spoilers.sanction.moderators}` = tells you if the `Sanction moderators` option is toggled on (`true`).
+
+`{settings;plugins.moderation.filters.spoilers.sanction.tickets}` = tells you if the `Sanction Ticket Channels` option is toggled on (`true`).
+
+`{settings;plugins.moderation.filters.spoilers.threshold}` = gives you the threshold number needed to trigger the filter.
+</details>
+
 
 
 ## __Levels:__
