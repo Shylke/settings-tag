@@ -9,7 +9,7 @@
 
 `{settings;persistent.length}` = gets the number of persistent variables you're using.
 
-`{settings;plugins}` = probably does something, but as of now it just errors out. ¯\_(ツ)_/¯
+`{settings;plugins}` = probably does something, but as of now it just errors out. ¯\\\_(ツ)_/¯
 
 
 ## __Fun:__
