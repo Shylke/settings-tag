@@ -73,6 +73,8 @@
 ## __Moderation:__
 `{settings;plugins.moderation}` = gets the general config in a raw format.
 
+`{settings;plugins.moderation.mute_role}` = gets the muted role's ID.
+
 `{settings;plugins.moderation.restrictions}` = gets the moderation plugin's restrictions (black/whitelists, required perms).
 
 `{settings;plugins.moderation.restrictions.mode}` = tells you whetever you're using a blacklist or a whitelist.
@@ -83,9 +85,9 @@
 
 `{settings;plugins.moderation.restrictions.permissions}` = gets you the moderation plugin's required perms.
 
-`{settings;plugins.moderation.logs.action}` = gets the action log's channel id.
+`{settings;plugins.moderation.logs.action}` = gets the action log's channel ID.
 
-`{settings;plugins.moderation.logs.mod}` = gets the mod log's channel id.
+`{settings;plugins.moderation.logs.mod}` = gets the mod log's channel ID.
 
 `{settings;plugins.moderation.state}` = tells you if the moderation plugin is enabled or not.
 
@@ -431,9 +433,9 @@
 
 `{settings;plugins.tickets.options.message}` = gets the ticket's opening message.
 
-`{settings;plugins.tickets.options.category}` = gets you the tickets' category's id.
+`{settings;plugins.tickets.options.category}` = gets you the tickets' category's ID.
 
-`{settings;plugins.tickets.options.support}` = gets you the tickets plugin's support role's id.
+`{settings;plugins.tickets.options.support}` = gets you the tickets plugin's support role's ID.
 
 `{settings;plugins.tickets.restrictions}` = gets the tickets plugin's restrcitions (black/whitelists, required perms).
 
