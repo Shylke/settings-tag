@@ -88,7 +88,6 @@
 `{settings;plugins.moderation.state}` = tells you if the moderation plugin is enabled or not.
 
 ### __Filters:__
-`{settings;plugins.moderation.filters.spoilers}` = general raw config of the spoilers filter.
 
 <details>
 <summary>Capitalization:</summary>
@@ -391,6 +390,34 @@
 
 ## __Suggestions:__
 `{settings;plugins.suggestions}` = gets the general config in a raw format.
+
+`{settings;plugins.suggestions.options}` = gets you all the suggestions plugin's options with all the roles in a raw format.
+
+`{settings;plugins.suggestions.options.reactions}` = gets you the emoji used for reactions, and self vote prevention state.
+
+`{settings;plugins.suggestions.options.reactions.up}` = gets you the `upvote` emoji.
+
+`{settings;plugins.suggestions.options.reactions.down}` = gets you the `downvote` emoji.
+
+`{settings;plugins.suggestions.options.reactions.preventSelf}` = tells you if the `Self-vote Prevention` option is toggled on (`true`).
+
+`{settings;plugins.suggestions.options.dm}` = tells you if the `SDirect-message Updates` option is toggled on (`true`).
+
+`{settings;plugins.suggestions.options.message}` = gets you the suggestions' message.
+
+`{settings;plugins.suggestions.options.channel}` =  get you the suggestions channel's ID.
+
+`{settings;plugins.suggestions.options.verification}` =  get you the verification channel's ID.
+
+`{settings;plugins.suggestions.restrictions}` = gets the roles plugin's restrictions (black/whitelists, required perms).
+
+`{settings;plugins.suggestions.restrictions.mode}` = tells you whetever you're using a blacklist or a whitelist.
+
+`{settings;plugins.suggestions.restrictions.roles}` = gets you the black/whitelisted roles.
+
+`{settings;plugins.suggestions.restrictions.channels}` = gets you the black/whitelisted channels.
+
+`{settings;plugins.suggestions.restrictions.permissions}` = gets you the roles plugin's required perms.
 
 `{settings;plugins.suggestions.state}` = tells you if the suggestions plugin is enabled or not.
 
