@@ -374,9 +374,13 @@
 
 `{settings;plugins.roles.options.iam.0}` = gets the first iam role's id. Replace `0` with a higher number to get other roles (1 = 2nd iam role, 2 = 3rd iam role, etc...).
 
+`{settings;plugins.roles.options.iam.length}` = tells you how many iam roles you have enabled.
+
 `{settings;plugins.roles.options.join}` = gets all the join roles' ids.
 
 `{settings;plugins.roles.options.join.0}` = gets the first join role's id. Replace `0` with a higher number to get other roles (1 = 2nd join role, 2 = 3rd join role, etc...).
+
+`{settings;plugins.roles.options.join.length}` = tells you how many join roles you have enabled.
 
 `{settings;plugins.roles.options.reaction_dm}` = tells you if the `Direct-message members when they toggle a role` option is toggled on (`true`).
 
