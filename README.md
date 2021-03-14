@@ -387,9 +387,19 @@
 
 `{settings;plugins.roles.options.reactions}` = gets you all the reaction roles info in a raw format.
 
-`{settings;plugins.roles.options.reaction_dm}` = tells you if the `Direct-message members when they toggle a role` option is toggled on (`true`).
+`{settings;plugins.roles.options.reactions.0}` = gets you the first reaction role info in a raw format. Replace `0` with a higher number to get other roles (1 = 2nd reaction role, 2 = 3rd reaction role, etc...).
+
+`{settings;plugins.roles.options.reactions.0.emoji}` = gets you the first reaction role's emoji. Replace `0` with a higher number to get other roles (1 = 2nd reaction role, 2 = 3rd reaction role, etc...).
+
+`{settings;plugins.roles.options.reactions.0.role}` = gets you the first reaction role's role ID. Replace `0` with a higher number to get other roles (1 = 2nd reaction role, 2 = 3rd reaction role, etc...).
+
+`{settings;plugins.roles.options.reactions.0.channel}` = gets you the first reaction role's channel ID. Replace `0` with a higher number to get other roles (1 = 2nd reaction role, 2 = 3rd reaction role, etc...).
+
+`{settings;plugins.roles.options.reactions.0.message}` = gets you the first reaction role's message ID. Replace `0` with a higher number to get other roles (1 = 2nd reaction role, 2 = 3rd reaction role, etc...).
 
 `{settings;plugins.roles.options.reactions.length}` = tells you how many reaction roles you have enabled.
+
+`{settings;plugins.roles.options.reaction_dm}` = tells you if the `Direct-message members when they toggle a role` option is toggled on (`true`).
 
 `{settings;plugins.roles.restrictions}` = gets the roles plugin's restrictions (black/whitelists, required perms).
 
