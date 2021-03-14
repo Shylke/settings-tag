@@ -385,7 +385,11 @@
 
 `{settings;plugins.roles.options.join.length}` = tells you how many join roles you have enabled.
 
+`{settings;plugins.roles.options.reactions}` = gets you all the reaction roles info in a raw format.
+
 `{settings;plugins.roles.options.reaction_dm}` = tells you if the `Direct-message members when they toggle a role` option is toggled on (`true`).
+
+`{settings;plugins.roles.options.reactions.length}` = tells you how many reaction roles you have enabled.
 
 `{settings;plugins.roles.restrictions}` = gets the roles plugin's restrictions (black/whitelists, required perms).
 
