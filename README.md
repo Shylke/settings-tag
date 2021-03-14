@@ -2,6 +2,9 @@
  # **Settings Tag(s):**
 
  ## __General:__
+`{settings;id}` = gets the server's ID.
+
+`{settings;lang}` = gets the server's locale. Won't return anything if your lang is set on English.
 
 `{settings;prefix}` = gets the server's prefix.
 
